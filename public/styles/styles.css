@@ -1,0 +1,129 @@
+html{
+    background-image: url("/images/fondo.jpg");
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 20px;
+    text-shadow: 1px;
+}
+
+ul.nav{
+    padding: 20px;
+    margin: 0;
+}
+
+.pochoDes{
+    display: flex;
+    flex-direction: row;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px;
+    padding: 50 px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pochoDes img{
+    height: 650px;
+}
+.pochoDesP{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 20px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-weight: 100;
+    color: white;
+    text-shadow: 1px 1px 10px rgb(5, 122, 5);
+    -webkit-text-fill-color: white;
+    border: 3px solid white;
+}
+img.pocholo1{
+    height:500px;
+}
+
+div.pocholo1{
+    display: flex;
+    align-content: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
+
+.title h1{
+    letter-spacing: 3px ;
+    margin-bottom: 0;
+    font-size: 36px;
+    color: white;
+    text-shadow: 1px 1px 10px rgb(5, 122, 5);
+}
+
+.title h2{
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(244, 255, 245);
+    font-weight: lighter;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 10px rgb(5, 122, 5);
+}
+
+.worksImg img {
+    height: auto;
+    margin: 10px;
+    width: 500px;
+}
+
+.works{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body>h1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    letter-spacing: 3px ;
+    margin-bottom: 0;
+    font-size: 36px;
+    color: white;
+    text-shadow: 1px 1px 10px rgb(5, 122, 5);
+    padding-bottom: 50px;
+}
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    letter-spacing: 3px ;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 15px;
+    color: white;
+    text-shadow: 1px 1px 10px rgb(5, 122, 5);
+}
